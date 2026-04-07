@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    padding: 2rem;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #2c3e50;
+}
+
+/* ===== Form ===== */
+.form-section {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid #dde3ea;
+}
+
+.input-group {
+    margin-bottom: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+label {
+    font-size: 14px;
+    color: #555;
+    font-weight: 500;
+}
+
+input {
+    padding: 10px 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+    transition: border 0.2s;
+}
+
+input:focus {
+    border-color: #3498db;
+}
+
+/* ===== Grades ===== */
+.grades-section {
+    margin-bottom: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.grades-inputs {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;  /* ← أضف هذا */
+}
+
+.grades-inputs input {
+    flex: 1;
+    min-width: 80px;  /* ← أضف هذا */
+    text-align: center;
+}
+
+/* ===== Button ===== */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-top: 0.5rem;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* ===== Report Card ===== */
+.report-section {
+    display: none;
+}
+
+.report-card {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    border: 1px solid #dde3ea;
+    font-family: 'Courier New', monospace;
+    font-size: 15px;
+    line-height: 2;
+    white-space: pre-wrap;
+    margin-bottom: 1.5rem;
+}
+
+/* ===== Console Info ===== */
+.console-info {
+    background: #2c3e50;
+    color: #2ecc71;
+    border-radius: 12px;
+    padding: 1.5rem 2rem;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    line-height: 2;
+    white-space: pre-wrap;
+}

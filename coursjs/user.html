@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./stylecart.css" />
+  </head>
+  <body>
+    <div class="report-card" id="reportCard">
+      <!-- الفاصل العلوي -->
+      <div class="divider" id="dividerTop"></div>
+
+      <!-- العنوان -->
+      <h2 class="report-title">🎓 STUDENT REPORT CARD</h2>
+
+      <!-- الفاصل -->
+      <div class="divider" id="dividerMid"></div>
+
+      <!-- معلومات الطالب -->
+      <div class="report-info">
+        <p><span class="label">👤 Name</span> <span id="displayName"></span></p>
+        
+        <p>
+          <span class="label">🆔 Student ID</span> <span id="displayId"></span>
+        </p>
+        <p>
+          <span class="label">🏫 School</span> <span id="displaySchool"></span>
+        </p>
+        <p><span class="label">🎂 Age</span> <span id="displayAge"></span></p>
+      </div>
+
+      <!-- الفاصل -->
+      <div class="divider"></div>
+
+      <!-- الدرجات -->
+      <div class="report-grades">
+        <p class="section-title">📊 GRADES</p>
+        <p>• Grade 1 : <span id="displayGrade1"></span></p>
+        <p>• Grade 2 : <span id="displayGrade2"></span></p>
+        <p>• Grade 3 : <span id="displayGrade3"></span></p>
+        <p>• Grade 4 : <span id="displayGrade4"></span></p>
+        <p>• Grade 5 : <span id="displayGrade5"></span></p>
+      </div>
+
+      <!-- الفاصل -->
+      <div class="divider"></div>
+
+      <!-- الإحصائيات -->
+      <div class="report-stats">
+        <p class="section-title">📈 STATISTICS</p>
+        <p>• Average : <span id="displayAvg"></span></p>
+        <p>• Highest : <span id="displayHighest"></span></p>
+        <p>• Lowest : <span id="displayLowest"></span></p>
+        <p>• Rounded : <span id="displayRounded"></span></p>
+        <p>• Bonus Pts: <span id="displayBonus"></span></p>
+      </div>
+
+      <!-- الفاصل -->
+      <div class="divider"></div>
+
+      <!-- النتيجة النهائية -->
+      <div class="report-final">
+        <p>🏆 Final Score : <span id="displayFinal"></span></p>
+        <p>🎖️ Grade : <span id="displayGrade"></span></p>
+      </div>
+
+      <!-- الفاصل السفلي -->
+      <div class="divider" id="dividerBottom"></div>
+      
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

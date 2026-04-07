@@ -1,0 +1,84 @@
+/* ===== Report Card ===== */
+.report-card {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    border: 1px solid #dde3ea;
+    font-family: 'Courier New', monospace;
+    font-size: 15px;
+    line-height: 2;
+    margin-bottom: 1.5rem;
+}
+
+/* ===== Divider ===== */
+.divider {
+    color: #3498db;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin: 0.5rem 0;
+    border-top: 1px dashed #dde3ea;
+    padding-top: 0.5rem;
+}
+
+/* ===== Title ===== */
+.report-title {
+    text-align: center;
+    font-size: 1.3rem;
+    color: #2c3e50;
+    margin: 0.5rem 0;
+    letter-spacing: 2px;
+}
+
+/* ===== Info Section ===== */
+.report-info p {
+    display: flex;
+    gap: 1rem;
+    color: #444;
+}
+
+.label {
+    min-width: 130px;
+    color: #888;
+    font-size: 14px;
+}
+
+/* ===== Grades Section ===== */
+.report-grades p ,
+.report-stats p {
+    color: #444;
+    padding: 2px 0;
+}
+
+.section-title {
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 4px;
+    font-size: 15px;
+}
+
+/* ===== Final Section ===== */
+.report-final {
+    margin-top: 0.5rem;
+}
+
+.report-final p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+#displayGrade {
+    color: #3498db;
+}
+
+#displayFinal {
+    color: #27ae60;
+}
+
+/* ===== Spans inside card ===== */
+.report-info span:not(.label) ,
+.report-grades span ,
+.report-stats span {
+    color: #2c3e50;
+    font-weight: 500;
+}
